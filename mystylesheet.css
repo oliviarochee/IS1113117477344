@@ -1,3 +1,16 @@
 .mainheading{
   text-align: center;
+  
+body:
+    background-color: powderblue;
+}
+h1 {
+    color: powderblue;
+    font-family: verdana;
+    font-size: 225%;
+}
+a href {
+    color: purple;
+    font-family: monospace;
+    font-size: 200%;
 }
