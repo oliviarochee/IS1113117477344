@@ -15,8 +15,8 @@ if(document.getElementById("salesforce").checked){
 
 function display(parm1){
     
-    document.getElementById("Subtotal").value = parm1;
-      document.getElementById("Total").value = parm1;
+    document.getElementById("subtotal").value = parm1;
+      document.getElementById("total").value = parm1;
       
       enablebtnProceed();
 }

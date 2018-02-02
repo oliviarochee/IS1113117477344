@@ -31,7 +31,7 @@
           <br/>
           <br/>
           
-          <label for ="Subtotal">
+          <label for ="subtotal">
               Sub Total
               <input type = "text" id ="subtotal" value = "0.00" readonly/>
           </label>
@@ -50,7 +50,7 @@
     </form>
     
     <br/>
-    <button onclick="Calcsub()">Calculate Cost</button>
+    <button onClick="calcSub()">Calculate Cost</button>
     <a role="button" href="Ebus1.php">Clear Choice</a>
     </body>
 </html>
