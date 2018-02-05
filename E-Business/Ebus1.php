@@ -52,5 +52,8 @@
     <br/>
     <button onClick="calcSub()">Calculate Cost</button>
     <a role="button" href="Ebus1.php">Clear Choice</a>
+    
+    
+    <button type="Success" id="btnsuccess" enabled>Homepage.html</button>
     </body>
 </html>
