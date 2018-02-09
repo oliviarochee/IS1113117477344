@@ -17,7 +17,7 @@ Make one called Ebus2.php and put this in
         
             <br />
             
-            <form method = "POST" action = "Ebus3.php">
+            <form method = "POST" action = "EBus3.php">
                 
                 <label for="user_pin">
                      PIN 
@@ -35,7 +35,7 @@ Make one called Ebus2.php and put this in
             
             <button onClick="validateDetails()"> Validate </button>
         
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <script type="text/javascript" src="EBus2_validator.js"></script>
         
         
     </body>
@@ -44,32 +44,5 @@ Make one called Ebus2.php and put this in
     
 </html>
 
-Make one called ebus2_validator.js
 
-/* global $ */
-
-function validateDetails(){
-    
-    var pin;
-    
-    pin = document.getElementById("user_pin").value;
-    
-    if (pin==""){
-        alert("Please enter your PIN");
-        }
-    else if (String(pin).length<4){
-        alert("Please make sure your PIN is accurate");
-        }
-    else{
-        enablebtnPurchase();
-        }
-}
-
-function enablebtnPurchase(){
-     $('#btnPurchase').prop('disabled',false);
-}
-
-function disablebtnPurchase(){
-     $('#btnPurchase').prop('disabled',true);
-}
 
