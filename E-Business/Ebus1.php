@@ -54,6 +54,6 @@
     <a role="button" href="Ebus1.php">Clear Choice</a>
     
     
-    <button type="Success" id="btnsuccess" enabled>Homepage.html</button>
+    <button type="Success" id="btnsuccess" enabled>Homepage</button>
     </body>
 </html>
