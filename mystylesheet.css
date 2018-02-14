@@ -1,16 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+ 
+
+
 .mainheading{
   text-align: center;
-  
-body:
-    background-color: powderblue;
+}  
+body{
+    background-color: white;
 }
 h1 {
-    color: powderblue;
+    color: black;
     font-family: verdana;
-    font-size: 225%;
+    font-size: 150%;
 }
-a href {
-    color: purple;
+ul li a{
+    color: white;
     font-family: monospace;
-    font-size: 220%;
+    font-size: 100%;
+  
+    
+    text-decoration: none;
+    width:100%;
+}
+
+
+.grey{
+    background:grey;
+    height:20%;
+}
+ul{
+   
+    text-align:center;
+
+     width:100%;
+  
+    height:10%;
+   
+}
+ul li{
+     position:relative;
+    top:30%;
+   display:inline;
+   margin:20px;
+}
+ 
+
+
+ul li a:hover{
+    color:purple;
+    background:white;
+    padding:2%;
+}
+
+.middle{
+    height:100%;
+    width:40%;
+    position: absolute;
+    left:30%;
+    
+}
+
+.middle img{
+    width:50%;
+    position:relative;
+    top:30%;
+    left:25%;
+    border-radius:50%;
+}
+
+ .Name{
+    position: relative;
+    top: 40%;
+    font-family: cursive;
+    text-align: center;
+
+    
+}
+
+h2{
+   position: relative;
+   top:40%;
+   text-align: center;
+   font-family: fantasy;
+   
+}
+
+h3{ 
+    position: relative;
+   top:40%;
+   text-align: center;
+   font-family: fantasy;
+   font-size: 20px;
+    
+}
+
+.content{
+    position:absolute;
+    top:20%;
+    left:15%;
 }

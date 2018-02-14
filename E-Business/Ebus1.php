@@ -7,6 +7,10 @@
     <script src="https://ajax-googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src ="cost_calc.js"></script>
     
+    
+    <!--Adding Bootstrap-->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
     </head>
     
     <body> 
@@ -54,6 +58,6 @@
     <a role="button" href="Ebus1.php">Clear Choice</a>
     
     
-    <button type="Success" id="btnsuccess" enabled>Homepage</button>
+   <a href="Ebus2.php" class="btn btn-dark">Pin Details</a>
     </body>
 </html>
