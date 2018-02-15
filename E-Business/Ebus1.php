@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html> 
 <html>
     <head> 
@@ -37,14 +39,14 @@
           
           <label for ="subtotal">
               Sub Total
-              <input type = "text" id ="subtotal" value = "0.00" readonly/>
+              <input type = "text" id ="subtotal" name = "subtotal" value = "0.00" readonly/>
           </label>
          
          <br/>
          
          <label for ="total">
              Total
-             <input type = "text" id ="total" value = "0.00" readonly/>
+             <input type = "text" id ="total" name = "total" value = "0.00" readonly/>
          </label>
          
          <br/>
@@ -58,6 +60,6 @@
     <a role="button" href="Ebus1.php">Clear Choice</a>
     
     
-   <a href="Ebus2.php" class="btn btn-dark">Pin Details</a>
+   <a href="EBus2.php" class="btn btn-dark">Pin Details</a>
     </body>
 </html>
