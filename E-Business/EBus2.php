@@ -1,6 +1,5 @@
 
 <?php> 
-//start the session
 session_start();
 ?>
 
@@ -45,8 +44,10 @@ session_start();
         
         <script type="text/javascript" src="EBus2_validator.js"></script>
         
-        <a href="Homepage.html" class="btn btn-dark">Homepage</a>
-        
+        <br />
+    <a href="../homepage.html" class="btn btn-success">Homepage</a>
+    
+    
         <?php
         //set session variables
         $_SESSION["total"] = $_POST["total"];
