@@ -1,13 +1,16 @@
 #section1{
-    background-color: rgb(238, 0, 90);
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe8KmrnYZVAD7MfmHKshJ_QUqgRD_h-VwOqoHjbYlxSnDAgRkY") no-repeat center fixed;
+     background-size: cover;
 }
 
 #section2{
-     background-color: rgb(44, 62, 80);
+   background: url("https://cdn.content.tuigroup.com/adamtui/2017_2/24_10/6ee9a9a3-c765-44bc-9e6e-a72400b3e5fb/TLD_GEN_F313WebOriginalCompressed.jpg?i10c=img.resize(width:658);img.crop(width:658%2Cheight:370)") no-repeat center fixed;
+     background-size: cover;
 }
 
 #section3{
-     background-color: rgb(51, 153, 204);
+     background: url("https://media.timeout.com/images/103444978/image.jpg") no-repeat center fixed;
+     background-size: cover;
 }
 
 .section{
