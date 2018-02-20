@@ -1,6 +1,9 @@
 body {
    background: url("https://vignette.wikia.nocookie.net/phobia/images/5/53/Clouds.jpg/revision/latest?cb=20170123161554") no-repeat center fixed;
-    
+    width:100%;
+    height:100%;
+    background-size:cover;
+    position:absolute;
 }
 .mainheading  {
     color: cyan;
