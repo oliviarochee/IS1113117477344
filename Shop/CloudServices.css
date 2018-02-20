@@ -125,7 +125,10 @@ html,body{
 
 .cloud{
   position:absolute;
-  top:-10%;
+  top:-13%;
   z-index:5;
-  left:40%;
+  left:35%;
+  font-family: Georgia;
+  color: midnightblue;
+  font-size: 50px;
 }
