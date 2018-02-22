@@ -1,0 +1,27 @@
+.mainheading{
+  text-align: center;
+}  
+body {
+    background: url(" https://modo4u.pl/19708-large_bosky/biurko-notice-biale-lakierowane-na-wysoki-polysk-140-cm.jpg") no-repeat center fixed;
+    width:100%;
+    height:100%;
+    background-size:cover;
+    position:absolute;
+    }
+h1 {
+    top:50%;
+    color: Cyan;
+    font-family: Georgia;
+    font-size: 150%;
+}
+ul li a{
+    color: white;
+    font-family: monospace;
+    font-size: 100%;
+  
+    
+    text-decoration: none;
+    width:100%;
+}
+ 
+ 

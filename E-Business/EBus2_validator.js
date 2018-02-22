@@ -1,5 +1,4 @@
 
-
 /* global $ */
 
 function validateDetails(){

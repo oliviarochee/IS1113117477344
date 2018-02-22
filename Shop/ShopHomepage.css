@@ -70,7 +70,7 @@ ul li a:hover{
 .middle img{
     width:70%;
     position:relative;
-    top:30%;
+    top:20%;
     left:10%;
     border-radius:50%;
 
@@ -81,23 +81,24 @@ ul li a:hover{
     top: 40%;
     font-family: cursive;
     text-align: center;
+    width:100%;
 
     
 }
 
-h2{
+h3{
    position: relative;
    top:40%;
    text-align: center;
-   font-family: fantasy;
+   font-family: georgia;
 
 }
 
-h3{ 
+h2{ 
     position: relative;
    top:40%;
    text-align: center;
-   font-family: fantasy;
+   font-family: georgia;
    font-size: 20px;
     
 }
