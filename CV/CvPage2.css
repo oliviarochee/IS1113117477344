@@ -1,6 +1,11 @@
 body {
-    background-color: white;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuUzPq4sNkVm3X6JCzwLAMa9H3Npt9m81oI5Yybq89p6K-nAnM") no-repeat center fixed;
+    width:100%;
+    height:100%;
+    background-size:cover;
+    position:absolute;
     
+   
 }
 .mainheading  {
     color: powderblue;

@@ -10,7 +10,7 @@ body {
     }
 h1 {
     top:50%;
-    color: Cyan;
+    color: Yellow;
     font-family: Georgia;
     font-size: 150%;
 }
@@ -23,5 +23,6 @@ ul li a{
     text-decoration: none;
     width:100%;
 }
- 
+
+
  

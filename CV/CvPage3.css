@@ -1,9 +1,13 @@
 body {
-    background-color: white;
+  background: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/28/69/24583e63c47c683.jpg") no-repeat center fixed;
+  width:100%;
+  height:100%;
+  background-size:cover;
+  position:absolute;
     
 }
 .mainheading   {
-    color: powderblue;  
+    color: midnightblue;  
     font-family: courier;
     
 }

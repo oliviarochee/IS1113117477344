@@ -1,13 +1,16 @@
 body {
-    background-color: white;
-    
+  background: url("http://wallpaperpulse.com/thumb/3490096.jpg") no-repeat center fixed;
+  width:100%;
+    height:100%;
+    background-size:cover;
+    position:absolute;
+
 }
 .mainheading  {
     color: powderblue;
     font-family: courier;
     
 }
-p    {
-    color: black;
-    
+p  {
+    color: black:
 }
