@@ -10,9 +10,28 @@ body {
 .mainheading  {
     color: powderblue;
     font-family: courier;
+    top:10%;
     
 }
 p  {
     color: black;
     
 }
+
+.secondary img{
+    width:20%;
+    position:relative;
+    left:50%;
+    top:50%;
+    
+}
+    
+    
+   .college img{
+    width:50%;
+    position:relative;
+    top:20%;
+    left:30%;
+    border-radius:50%;
+    z-index:7%;
+    }

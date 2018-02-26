@@ -25,6 +25,10 @@ session_start();
             
             <form method = "POST" action = "EBus3.php">
                 
+                 <label for="user_email">Email</label> 
+                 <input type="email" id="user_email" name="user_email" placeholder="Email Address"> 
+
+                
                 <label for="user_pin">
                      PIN 
                 </label>
@@ -39,7 +43,9 @@ session_start();
             
             <br />
             
-            <button onClick="validateDetails()"> Validate </button>
+            <button onClick="validateDetails()"> Validate details </button>
+            
+    
         
         <script type="text/javascript" src="EBus2_validator.js"></script>
         
@@ -53,7 +59,7 @@ session_start();
         ?>
         
         
-        
+      
     </body>
     
     

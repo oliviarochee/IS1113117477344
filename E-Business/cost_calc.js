@@ -21,9 +21,22 @@ function display(parm1){
       enablebtnProceed();
 }
 
-function enablebtnProceed(){
-    $("btnProceed").prop("disabled",false);
+
+function enablebtnProceed(){ 
+$('#btnProceed').prop('disabled', false); 
+} 
+
+
+function disablebtnProceed() { 
+$('#btnProceed').prop('disabled', true); 
 }
-    function enablebtnProceed(){
-    $("btnProceed").prop("disabled",true);
-}
+
+
+
+
+
+
+
+
+
+
