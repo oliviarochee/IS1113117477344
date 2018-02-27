@@ -15,6 +15,7 @@ session_start();
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     
     <body>
@@ -29,22 +30,15 @@ session_start();
                  <input type="email" id="user_email" name="user_email" placeholder="Email Address"> 
 
                 
-                <label for="user_pin">
-                     PIN 
-                </label>
-                
-                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
+                 <label for="user_pin">PIN</label>
+                <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
                     
-                <button type="Submit" id="btnPurchase" disabled> 
-                    Proceed with Purchase 
-                </button>
+              <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
                 
-            </form>
-            
-            <br />
-            
-            <button onClick="validateDetails()"> Validate details </button>
-            
+                 <br/>
+             <button onClick="validateDetails()">Validate</button>
+
+            </div>
     
         
         <script type="text/javascript" src="EBus2_validator.js"></script>

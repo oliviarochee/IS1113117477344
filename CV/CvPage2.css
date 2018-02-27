@@ -8,7 +8,7 @@ body {
    
 }
 .mainheading  {
-    color: powderblue;
+    color: cyan;
     font-family: courier;
     top:10%;
     
@@ -19,19 +19,19 @@ p  {
 }
 
 .secondary img{
-    width:20%;
-    position:relative;
+    width:12%;
+    position:absolute;
     left:50%;
-    top:50%;
+    top:8%;
     
 }
     
     
    .college img{
-    width:50%;
-    position:relative;
-    top:20%;
-    left:30%;
+    width:20%;
+    position:absolute;
+    top:40%;
+    left:48%;
     border-radius:50%;
     z-index:7%;
     }
