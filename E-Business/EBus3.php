@@ -6,6 +6,7 @@ session_start();
 <html> 
    <head> 
    <title>RECEIPT</title>
+   <link rel="stylesheet" href="Ebus.css" type="text/css" />
     </head>
     <body>
         <h4>RECEIPT</h4>

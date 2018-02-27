@@ -1,8 +1,18 @@
 
+
+body {
+   background: url("http://www.crumblesthedog.com/wp-content/uploads/2014/12/blue-sky-background.jpg") no-repeat center fixed;
+}
       .box{
     display:inline;
 }
 
+
+.box1{
+    font-family: cursive;
+    color: midnightblue;
+    
+}
 /* Centered text */
 .centered {
     position: absolute;
