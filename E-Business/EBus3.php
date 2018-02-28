@@ -14,7 +14,7 @@ session_start();
         <?php
         
 //Echo session variables that were set in a previous page 
-echo "The total amount owed is: " . $_SESSION["total"] . ". <br> Thank you for shopping with SurgeStoneLTD! We hope you found everything you needed!  <br> Please keep a copy of this receipt in your Inbox"; 
+echo "The total amount owed is: " . $_SESSION["total"] . ". <br><br><br> Thank you for shopping with SurgeStoneLTD! We hope you found everything you needed!  <br><br><br> Please keep a copy of this receipt in your inbox until you have successfully set up all cloud accounts"; 
         ?>
         
     </body>
