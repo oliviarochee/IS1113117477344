@@ -9,14 +9,15 @@ background: url("https://article.images.consumerreports.org/prod/content/dam/cro
    background: url("http://timeaide.net/wp-content/uploads/2014/01/Cloud-Services.jpg") no-repeat center fixed;
      background-size: cover;
      font-size: medium;
-     color:cyan;
-}
+     color:black;
+     }
 
 #sectionfavourite{
      background: url("https://www.theinquirer.net/w-images/56f1af27-c46a-4ba2-b252-23146354be48/0/googlegmaillogo-580x358.jpg") no-repeat center fixed;
      background-size: cover;
       font-size: medium;
      color:black;
+     
 }
 
 .section{
