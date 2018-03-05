@@ -1,17 +1,35 @@
-body {
-   background: url("https://vignette.wikia.nocookie.net/phobia/images/5/53/Clouds.jpg/revision/latest?cb=20170123161554") no-repeat center fixed;
-    width:100%;
-    height:100%;
-    background-size:cover;
-    position:absolute;
+#sectioncloud{
+background: url("https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/Electronics/CR-Electronics-AH-Cloud-Bank-12-15") no-repeat center fixed;
+     background-size: cover;
+     font-size: medium;
+     color:black;
 }
-.mainheading  {
-    color: cyan;
-    font-size: 50px;
-    font-family: courier;
-    
+
+#sectionuse{
+   background: url("http://timeaide.net/wp-content/uploads/2014/01/Cloud-Services.jpg") no-repeat center fixed;
+     background-size: cover;
+     font-size: medium;
+     color:cyan;
 }
-p    {
+
+#sectionfavourite{
+     background: url("https://www.theinquirer.net/w-images/56f1af27-c46a-4ba2-b252-23146354be48/0/googlegmaillogo-580x358.jpg") no-repeat center fixed;
+     background-size: cover;
+      font-size: medium;
+     color:black;
+}
+
+.section{
+    text-align:center;
+    color:white;
+}
+
+.home {
     color: black;
-    
+    background-color: powderblue;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 10;
+    position:absolute;
+    top:90%;
 }
