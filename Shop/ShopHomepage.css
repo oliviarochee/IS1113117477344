@@ -71,7 +71,7 @@ ul li a:hover{
 .middle img{
     width:70%;
     position:relative;
-    top:20%;
+    margin-top:-20%;
     left:10%;
     border-radius:50%;
 
